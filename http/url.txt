@@ -1,0 +1,10 @@
+Here is what happens when you type the full URL into your browser
+
+Your browser asks your computer where the domain name (www.quora.com) is located.
+If your computer does not know, it asks your DNS server. Your DNS server is set up when you connect to the Internet, and it is usually provided by your Internet Service Provider (ISP). A DNS server is like a phone book with records of the IP addresses for many different domain names.
+If your ISP’s DNS server does not know where www.quora.com is located, it asks the Internet registration authority who has the authoritative records for quora.com.
+The Internet registration authority tells your ISP’s DNS server who maintains the address records for quora.com. In this case, a server with domain name ns-1143.awsdns-14.org maintains quora.com’s records. This is called a nameserver.
+Your ISP’s DNS server then asks the nameserver where www.quora.com lives. www.quora.com has an IP address of 151.101.69.2. This is the IP address of a computer in Amazon’s data center.
+Your ISP’s DNS server then sends this IP address back to your PC. Your PC stores the IP address in its local cache (its local address book).
+Your PC sends a request to 151.101.69.2 for the web page.
+The computer that is hosting quora’s web page receives the request and parses it. Based on the protocol, the domain name, the file path and the query string, the software running on that remote computer collect all the text and image files that comprise this web page and send them back to your PC.

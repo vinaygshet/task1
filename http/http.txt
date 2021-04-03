@@ -1,0 +1,7 @@
+Difference between HTTP1.1 VS HTTP2
+
+HTTP1.1 HTTP is a top level application protocol that exchanges informations between a client computer and a local or remote web server. in this process, a client sends a text-based request to a server by calling a method like GET or POSt.
+HTTP1.1 requires the downloading of multiple streams in parallel because it can handle only one request at the time.
+HTTP2 began as the SPDY protocol,developed primarily at Google with the intention of reducing web page load latency
+HTTP2 allows for faster transmission between servers and computer.
+

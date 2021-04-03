@@ -1,0 +1,7 @@
+Difference between  browser js console vs node js
+
+In browser “window” is a predefined global object which has functions and attributes, where as Nodejs doesn’t have it.
+In browser “location” is another predefined object, where as Nodejs doesn’t have it.
+In browser “require” is not predefined object, where as Nodejs has it.
+In browser module is not required, where as in Nodejs you have to keep your code inside the module.
+In browser “document” is a predefined object, where as Nodejs doesn’t have it.
